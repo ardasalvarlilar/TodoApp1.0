@@ -81,10 +81,10 @@ function lineThrough(){
 
 function remove (){
   this.parentElement.remove()
-  if(ul.children.length == 0){
-    container.classList.remove('pb-3','border')
+  if(ul.children.length === 0){
+    container.classList.remove('py-1','pb-3','border')
   }
-}
+} 
 
 function timeOut(){
   alert.classList.remove('block')
